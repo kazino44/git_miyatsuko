@@ -1,0 +1,19 @@
+<h2 data-component='base/h2' class='contenteditable'>部署情報</h2>
+<div class='row clearfix' data-component='grid/col2'>
+  <div class='col-md-3 column x-content'>
+    <p data-component='base/paragraph' class='contenteditable'>部署ID</p>
+  </div>
+  <div class='col-md-9 column x-content'>
+    <p class='data-bind' data-name='@section.id' data-component='data/text'><%= @section.id %></p>
+  </div>
+</div>
+<div class='row clearfix' data-component='grid/col2'>
+  <div class='col-md-3 column x-content'>
+    <p data-component='base/paragraph' class='contenteditable'>部署名</p>
+  </div>
+  <div class='col-md-9 column x-content'>
+    <p class='data-bind' data-name='@section.sec_name' data-component='data/text'><%= @section.sec_name %></p>
+  </div>
+</div>
+<a class='btn btn-sm btn-default contenteditable' href='' data-component='data/link'>編集</a>
+<a class='btn btn-sm btn-default contenteditable' href='' data-component='base/anchor'>戻る</a>
